@@ -59,7 +59,7 @@ body,html{
     background: url(../img/t3-2.png) 10px center no-repeat;
     cursor: pointer;
 }
-#header_wrap_header_headerRight_span{
+.header_wrap_header_headerRight_span{
 	color:#dde2e8;
 }
 #header_wrap_header_headerRight a:nth-child(3){
@@ -128,10 +128,10 @@ body,html{
 #header_wrap_content_content_rightTop_input{
 	width:476px;
 	height:37px;
-	box-shadow:2px #f1f1f1;
+	box-shadow:3px 3px 3px #f1f1f1;
 	padding-left: 10px;
 }
-#header_wrap_content_content_rightTop_input:input-placeholder{
+#header_wrap_content_content_rightTop_input{
 	color:#DDE2E8;
 }
 #header_wrap_content_content_rightTop_button{
@@ -245,7 +245,7 @@ body,html{
 	margin-right: 5px;
 	margin-left:0px;
 }
-#content_wrap_top_right_top_image:hover{
+.content_wrap_top_right_top_image:hover{
 	width:36px;
 	height:36px;
 }
